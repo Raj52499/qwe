@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name ="viewport" content="with=device-width, initial-scale=1.0">
+        <title> HR HOSPITAL</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,900;1,100&display=swap" rel="stylesheet">
+<link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css"
+    </head>
+    <body>
+ <section class="header">
+          <nav>
+              <a href="index.html"><img src="./Images/download.jpg">  HOSPITAL<br></a>
+              <div class="nav-links" id="navLinks ">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                  <li><a href="">HOME</a></li>
+                  <li><a href="">ABOUT</a></li>
+                  <li><a href="">FACILITIES</a></li>
+                  <li><a href="">CONTACT US</a></li>
+                </ul>
+               </div>
+               <i class="fa fa-bars" onclick="showMenu()" ></i>
+          </nav>
+                <div class="text-box">
+    <h1>World's BEST HOSPITAL</h1>
+    <P>HR Hospital are regards as one the best hospital in india,performing a
+         multitude of treatment and procedures in <br>cardiology and cardiothoracic surgery.The scorescard shows an unmatched of over 1,52,000cardiac and cardiothoraic surgeries.</P>
+    <a href=""class="hero-btn"> Visit Us To Know More </a>
+           </div>
+  </section>
+  <!---------JavaScript for Toggle Menu-->
+  <script>
+      var navLinks = document.getElementByID("navLinks");
+      function showMenu(){
+          navLinks.style.right = "0";
+      }
+      function hidemenu(){
+          navLinks.style.right = "-200px";
+      }
+  </script>
+
+    </body>
+</html>
